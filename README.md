@@ -1,0 +1,2 @@
+# banataogroup3.1
+BANATAO GROUP 3 - PHILOSOPHY WEBSITE
