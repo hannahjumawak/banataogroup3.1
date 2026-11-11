@@ -1,0 +1,118 @@
+@import url('../css/boilerplate.css');
+
+#webpageContent {
+    color: var(--text-color1);
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100vh;
+    width: 100%;
+}
+
+#navbar-placeholder {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    height: fit-content;
+}
+
+
+
+
+#Topbar {
+    flex: 1;
+    min-height: 5vh;
+    width: 100%;
+    max-height: 5vh;
+    margin-top: 5vh;
+
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#MainPart {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: stretch; 
+    flex: 1;
+}
+
+
+#LeftPanel {
+    border-top: solid 2px var(--light-gray);
+
+    width: 20vw;
+    margin-left: 2.5vw;
+    flex-shrink: 0;
+
+    padding: 1rem;
+    position: relative;
+    z-index: 10;
+
+    /*background-color: blue;    */
+}
+
+
+.currentDisplay {
+    text-align: center;
+    font-size: var(--font-bit-big);
+    margin-bottom: 1rem;
+}
+
+.lessonOrder > li {
+    border-top: solid 1px var(--text-color2);
+    border-bottom: solid 1px var(--text-color2);
+}
+
+.lessonOrder > li:hover {
+    background-color: var(--light-gray);
+    cursor: pointer;
+}
+
+.lessonOrder > li > a {
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--text-color1);
+    text-decoration: none;
+    font-size: var(--font-bit-bit-big);
+    border: 0px;
+    
+    padding: 1rem;
+
+    text-align: left;
+    margin-left: 10%;
+    width: 90%;
+    height: 100%;
+}
+
+#clearCheckboxesLeftBarDiv {
+    display: flex;
+    justify-content: right;
+}
+
+.clearCheckboxes {
+    font-size: var(--font-bit-big);
+    background-color: transparent;
+    border: 0px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+#panel-displayer {
+    position: relative;
+    box-sizing: border-box;
+    flex: 1; 
+}
+
+

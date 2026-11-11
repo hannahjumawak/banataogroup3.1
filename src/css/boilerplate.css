@@ -1,0 +1,111 @@
+/* Light Mode Settings */
+:root {
+    --cream: rgb(247, 246, 243);
+    
+    --blue: rgb(72, 124, 165);
+    --purple: rgb(138, 103, 171);
+    --green: rgb(106, 231, 148);
+    --brown: rgb(151, 109, 87);
+    --orange: rgb(204, 120, 47);
+    --yellow: rgb(194, 147, 67);
+    --pink: rgb(179, 84, 136);
+    --red: rgb(196, 85, 77);
+
+    --light-gray: rgb(241, 241, 239);
+    --light-brown: rgb(243, 238, 238);
+    --light-orange: rgb(248, 236, 223);
+    --light-yellow: rgb(250, 243, 221);
+    --light-green: rgb(238, 243, 237);
+    --light-blue: rgb(145, 197, 218);
+    --light-purple: rgb(246, 243, 248);
+    --light-pink: rgb(249, 242, 245);
+    --light-red: rgb(250, 236, 236);
+
+    --dark-green: rgb(52, 175, 93);
+
+    --light-light-blue: rgb(234, 249, 255);
+
+    --dark-blue: rgb(41, 99, 143);
+
+    --bg-color1: var(--cream);
+    --bg-color2: var(--light-orange);
+    --bg-color3: var(--orange);
+
+    --accent-color1: var(--blue);
+    --accent-color2: var(--light-blue);
+    --accent-color3: var(--purple);
+
+    --text-color1: rgb(0,0,0);
+    --text-color2: rgb(120, 119, 116);
+    --text-color3: rgb(55, 53, 47);
+    --text-color4: rgb(0,0,0);
+
+    --highlight1: var(--light-green);
+    --highlight2: var(--green);
+    --highlight3: var(--purple);
+
+    --itext-color1: rgb(212, 212, 212);
+
+    --font-normal: 1rem;
+    --font-bit-bit-big: 1.25rem;
+    --font-bit-big: 1.5rem;
+    --font-big: 2rem;
+    --font-bigger:2.5rem;
+    --font-biggest: 3rem;
+    --font-XL: 4rem;
+    --font-XXL: 5rem;
+
+
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-family);
+    font-size: var(--font-normal);
+
+    color: var(--text-color1)
+}
+
+/* Dark Mode Settings */
+[data-theme="dark"] {
+
+    --blue: rgb(68, 122, 203);
+    --purple: rgb(134, 93, 187);
+    --green: rgb(79, 151, 104);
+    --brown: rgb(162, 119, 99);
+    --orange: rgb(203, 123, 55);
+    --yellow: rgb(193, 145, 56);
+    --pink: rgb(186, 74, 120);
+    --red: rgb(190, 82, 75);
+
+    --gray: rgb(37, 37, 37);
+    --light-brown: rgb(46, 39, 36);
+    --light-orange: rgb(54, 41, 31);
+    --light-yellow: rgb(55, 46, 32);
+    --light-green: rgb(36, 43, 38);
+    --light-blue: rgb(31, 40, 45);
+    --light-purple: rgb(42, 36, 48);
+    --light-pink: rgb(46, 35, 40);
+    --light-red: rgb(51, 37, 35);
+
+
+
+
+
+
+
+    --bg-color1: rgb(25,25,25);
+    --bg-color2: rgb(0,0,0);
+    --bg-color3: rgb(155, 155, 155);
+
+    --accent-color1: rgb(0,0,0);
+    --accent-color2: rgb(0,0,0);
+    --accent-color3: rgb(0,0,0);
+
+    --text-color1: rgb(212, 212, 212);
+    --text-color2: rgb(0,0,0);
+    --text-color3: rgb(0,0,0);
+    --text-color4: rgb(0,0,0);
+
+    --highlight1: rgb(0,0,0);
+    --highlight2: rgb(0,0,0);
+    --highlight3: rgb(0,0,0);
+
+}
