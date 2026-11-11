@@ -1,0 +1,237 @@
+{
+  "1A": {
+    "title": "Introduction to Philosophy & The Human Person",
+    "questions": [
+      {
+        "status": "1/10",
+        "text": "What is the meaning of the word Philosophy?",
+        "choices": {
+          "A": "Love of Learning",
+          "B": "Love of Wisdom",
+          "C": "Love of Knowledge",
+          "D": "Love of Science"
+        },
+        "correct": "B"
+      },
+      {
+        "status": "2/10",
+        "text": "Who is known as the Father of Western Philosophy?",
+        "choices": {
+          "A": "Aristotle",
+          "B": "Plato",
+          "C": "Thales of Miletus",
+          "D": "Socrates"
+        },
+        "correct": "C"
+      },
+      {
+        "status": "3/10",
+        "text": "Which branch of philosophy studies knowledge, truth, and how we know things?",
+        "choices": {
+          "A": "Ethics",
+          "B": "Logic",
+          "C": "Epistemology",
+          "D": "Metaphysics"
+        },
+        "correct": "C"
+      },
+      {
+        "status": "4/10",
+        "text": "What is the difference between knowledge and wisdom?",
+        "choices": {
+          "A": "Knowledge is knowing facts, while wisdom is applying facts correctly.",
+          "B": "Knowledge and wisdom have the same meaning.",
+          "C": "Knowledge comes from experience, while wisdom comes from books.",
+          "D": "Knowledge is about feelings, while wisdom is about beauty."
+        },
+        "correct": "A"
+      },
+      {
+        "status": "5/10",
+        "text": "Which branch of philosophy studies right and wrong behavior?",
+        "choices": {
+          "A": "Aesthetics",
+          "B": "Metaphysics",
+          "C": "Epistemology",
+          "D": "Ethics"
+        },
+        "correct": "D"
+      },
+      {
+        "status": "6/10",
+        "text": "What are the five characteristics of a human being mentioned in the lesson?",
+        "choices": {
+          "A": "Physical, mental, moral, spiritual, and emotional",
+          "B": "Physical, social, financial, and cultural",
+          "C": "Mental, emotional, financial, and social",
+          "D": "Physical, biological, and environmental"
+        },
+        "correct": "A"
+      },
+      {
+        "status": "7/10",
+        "text": "In philosophy, what makes a person different from other beings?",
+        "choices": {
+          "A": "Wealth and popularity",
+          "B": "Self-awareness, rationality, and free will",
+          "C": "Physical appearance",
+          "D": "Strength and intelligence only"
+        },
+        "correct": "B"
+      },
+      {
+        "status": "8/10",
+        "text": "What is self-awareness?",
+        "choices": {
+          "A": "Knowing the feelings of other people",
+          "B": "Understanding the environment",
+          "C": "Being aware of yourself",
+          "D": "Following what others say"
+        },
+        "correct": "C"
+      },
+      {
+        "status": "9/10",
+        "text": "What is the difference between partial and holistic perspectives?",
+        "choices": {
+          "A": "Partial studies the whole, while holistic studies one part.",
+          "B": "Both perspectives have the same meaning.",
+          "C": "Partial focuses on one part, while holistic looks at the whole.",
+          "D": "Partial focuses on emotions only."
+        },
+        "correct": "C"
+      },
+      {
+        "status": "10/10",
+        "text": "According to Sir Karl Popper, what are the three worlds of human existence?",
+        "choices": {
+          "A": "Physical, mental, and social worlds",
+          "B": "Past, present, and future worlds",
+          "C": "Spiritual, emotional, and moral worlds",
+          "D": "Natural, digital, and artificial worlds"
+        },
+        "correct": "A"
+      }
+    ]
+  },
+  "2A": {
+    "title": "Fallacies",
+    "questions": [
+      {
+        "status": "1/5",
+        "text": "A student asks the teacher to pass him because his family is experiencing financial problems. What fallacy is being used?",
+        "choices": {
+          "A": "Ad Hominem",
+          "B": "Appeal to Pity",
+          "C": "False Cause",
+          "D": "Hasty Generalization"
+        },
+        "correct": "B"
+      },
+      {
+        "status": "2/5",
+        "text": "A student says, \"Aliens must exist because nobody has proven that they do not exist.\" What fallacy is this?",
+        "choices": {
+          "A": "Appeal to Ignorance",
+          "B": "False Dilemma",
+          "C": "Straw Man",
+          "D": "Equivocation"
+        },
+        "correct": "A"
+      },
+      {
+        "status": "3/5",
+        "text": "Someone says, \"Millions of people bought this product, so it must be safe and effective.\" What fallacy is being used?",
+        "choices": {
+          "A": "Appeal to Force",
+          "B": "False Cause",
+          "C": "Appeal to the People",
+          "D": "Ad Hominem"
+        },
+        "correct": "C"
+      },
+      {
+        "status": "4/5",
+        "text": "A student says, \"If students are allowed to use phones during break time, eventually they will use them in every class.\" What fallacy is this?",
+        "choices": {
+          "A": "Slippery Slope",
+          "B": "Appeal to Pity",
+          "C": "Begging the Question",
+          "D": "Equivocation"
+        },
+        "correct": "A"
+      },
+      {
+        "status": "5/5",
+        "text": "During a debate, a student attacks the other person's character instead of answering their argument. What fallacy is this?",
+        "choices": {
+          "A": "False Cause",
+          "B": "Hasty Generalization",
+          "C": "Appeal to Ignorance",
+          "D": "Ad Hominem"
+        },
+        "correct": "D"
+      }
+    ]
+  },
+  "3A": {
+    "title": "Philosophers",
+    "questions": [
+      {
+        "status": "1/5",
+        "text": "Who is known as the Father of Eastern Philosophy and taught the concept of Tao or Dao?",
+        "choices": {
+          "A": "Confucius",
+          "B": "Lao Tzu",
+          "C": "Mencius",
+          "D": "Siddhartha Gautama"
+        },
+        "correct": "B"
+      },
+      {
+        "status": "2/5",
+        "text": "Who taught the Four Noble Truths and the Eightfold Path?",
+        "choices": {
+          "A": "Mencius",
+          "B": "Confucius",
+          "C": "Siddhartha Gautama",
+          "D": "Lao Tzu"
+        },
+        "correct": "C"
+      },
+      {
+        "status": "3/5",
+        "text": "Which philosopher believed that everything is constantly changing?",
+        "choices": {
+          "A": "Heraclitus",
+          "B": "Parmenides",
+          "C": "Pythagoras",
+          "D": "Thales"
+        },
+        "correct": "A"
+      },
+      {
+        "status": "4/5",
+        "text": "Who believed that numbers are the fundamental principles of reality?",
+        "choices": {
+          "A": "Anaximander",
+          "B": "Empedocles",
+          "C": "Pythagoras",
+          "D": "Anaxagoras"
+        },
+        "correct": "C"
+      },
+      {
+        "status": "5/5",
+        "text": "Who is known as the Father of Western Philosophy and believed that water is the underlying substance of everything?",
+        "choices": {
+          "A": "Anaximenes",
+          "B": "Thales",
+          "C": "Heraclitus",
+          "D": "Parmenides"
+        },
+        "correct": "B"
+      }
+    ]
+  }
+}

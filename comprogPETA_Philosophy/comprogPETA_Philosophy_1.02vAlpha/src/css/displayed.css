@@ -1,0 +1,170 @@
+@import url('../css/boilerplate.css');
+
+
+p {
+    font-size: var(--font-bit-big);
+}
+
+
+.content {
+    height: 100%;
+    width: 100%;
+
+    padding: 1rem;
+
+    min-height: 40vh;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 3rem;
+}
+
+
+
+.statusText {
+    color: var(--blue);
+    font-size: var(--font-big);
+    font-weight: bold;
+}
+
+
+.multipleChoice {
+    list-style-type: none;
+    margin-top: 5rem;
+}
+
+#cA {
+    border-top: solid 1px var(--text-color2);
+}
+
+.multipleChoice > li {
+    border-bottom: solid 1px var(--text-color2);
+    /*border-top: solid 1px var(--text-color2);*/
+}
+
+.multipleChoice > li:hover {
+    background-color: var(--light-gray);
+}
+
+
+.multipleChoice > li > button {
+    display: flex;
+    flex-direction: row;
+
+    background-color: transparent;
+    padding: 0.5rem;
+
+    border: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.multipleChoice > li > button:hover {
+    cursor: pointer;
+}
+
+.circleChoice {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 2rem;
+    background-color: var(--text-color2);
+    height: 1.75rem;
+    width: 2rem;
+    border-radius: 1rem;
+}
+
+.circleChoice > p {
+    width: 95%;
+    height: 95%;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.multipleChoice > li[chosen] {
+    background-color: var(--light-blue);
+}
+
+.multipleChoice > li[correct] {
+    background-color: var(--green);
+}
+
+
+
+.footer {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 5rem;
+}
+
+#nextButton {
+    font-size: var(--font-bit-big);
+    border: 0px;
+
+
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+
+    color: white;
+    background-color: var(--text-color2);
+
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+#nextButton[allowedToCheck] {
+    background-color: var(--green);
+}
+
+#nextButton[allowedToCheck]:hover {
+    cursor: pointer;
+}
+
+
+#nextButton[allowedToNext] {
+    background-color: var(--blue);
+}
+
+#nextButton[allowedToNext]:hover {
+    cursor: pointer;
+}
+
+
+.victoryPanel {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    color: white;
+    background-color: var(--dark-green);
+    width: 100%;
+    height: 100%;
+    padding: 5rem;
+
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    z-index: 10;
+}
+
+.victoryPanel.active {
+    display: flex;
+}
+
+.score {
+    font-size: var(--font-XXL);    
+}
+.accuracy {
+    font-size: var(--font-bigger);
+}
+
+.victoryPanel > p {
+    font-size: var(--font-big);
+}
